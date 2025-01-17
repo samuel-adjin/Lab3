@@ -1,0 +1,2 @@
+It doesn't make sense to use inheritance has the relationship between circle and cylinder isn't a is-a relationship. Also this violates liskov
+principle
