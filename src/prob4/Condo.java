@@ -3,16 +3,25 @@ package prob4;
 public class Condo extends Property {
 
     private int numOfFloors;
-    private Address Address;
-    private double rent;
 
     public Condo(int numOfFloors) {
         this.numOfFloors = numOfFloors;
-        this.rent = (400 * numOfFloors);
+    }
+
+    public Condo(Address address, int numOfFloors) {
+        super(address);
+        this.numOfFloors = numOfFloors;
     }
 
     @Override
     double computeRent() {
-        return this.rent;
+        return (400 * numOfFloors);
+    }
+
+    @Override
+    public String toString() {
+        return "Condo{" +
+                "numOfFloors=" + numOfFloors +
+                '}';
     }
 }

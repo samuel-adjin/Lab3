@@ -28,10 +28,7 @@ public class PersonWithJob extends Person {
 		System.out.println("p1.equals(p2)? " + p1.equals(p2));
 		System.out.println("p2.equals(p1)? " + p2.equals(p1));
 
-		// the reason p1.equals(p2) is because the Parent Person isn't an instance of PersonwithJob. Has the parent can't be an
-		// instanceOf the child but rather the child can be an instance of the parent. The parent can't be subsituted with the child.
-		// The equals used comes from the child hence the reason why its false but on the other hand as the parent type can be substitute
-		// for the child in order words the child is an instance of the parent and both object have the same name hence it returns true for it
+
 
 	}
 

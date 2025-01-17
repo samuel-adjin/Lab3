@@ -1,2 +1,2 @@
-It doesn't make sense to use inheritance has the relationship between circle and cylinder isn't a is-a relationship. Also this violates liskov
-principle
+It is not right to use inheritance in this situation as the relationship between circle and cylinder is not a "is-a" relationship. Moreover, this violates liskov
+principle. As substituting cylinder for circle affects the logic of the code.

@@ -1,4 +1,4 @@
-the reason p1.equals(p2) is false because the Parent Person isn't an instance of PersonwithJob. Has the parent can't be an
-instanceOf the child but rather the child can be an instance of the parent. The parent can't be substituted with the child.
-The equals used comes from the child hence the reason why its false but on the other hand as the parent type can be substituted
+The reason p1.equals(p2) is false is because the Parent Person is not an instance of PersonwithJob. This is because the parent can not be an
+instanceOf the child but rather the child can be an instance of the parent. The parent can not be substituted with the child.
+The equals used comes from the child hence the reason why it is false. On the other hand as the parent type can be substituted
 for the child in order words the child is an instance of the parent and both object have the same name hence it returns true for it

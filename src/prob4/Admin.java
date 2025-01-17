@@ -1,5 +1,8 @@
 package prob4;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Admin {
 
 	public static double computeTotalRent(Property[] properties) {
@@ -9,4 +12,15 @@ public class Admin {
 		}
 		return totalRent;
 	}
+
+	public static List<Property> getPropertiesInCity(String city,Property[] properties) {
+		List<Property> propertiesInCity = new ArrayList<Property>();
+		for (Property prop : properties) {
+			if(prop.getAddress().getCity().equals(city)){
+				propertiesInCity.add(prop);
+			}
+		}
+		return propertiesInCity;
+	}
+
 }
